@@ -1,0 +1,7 @@
+name: ml-test
+
+entry_points:
+  main:
+    parameters:
+      alpha: {type: float, default: 0.1}
+    command: "python scikit-learn_testcase.py --alpha {alpha}"
