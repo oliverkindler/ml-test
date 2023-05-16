@@ -1,7 +1,7 @@
 UnicoreApiUrl: https://zam2125.zam.kfa-juelich.de:9112/JUWELS/rest/core
 Environment:
   Singularity:
-    Path: /ml-test.sif
+    Path: /p/project/deepacf/maelstrom/ehlert1/singularity_images/ml-test.sif
     Type: remote
 Resources:
   Queue: devel
